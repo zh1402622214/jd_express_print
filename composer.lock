@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e9cb0912a757a79d094e156e38704426",
+    "packages": [
+        {
+            "name": "sanxc/jd_express_base",
+            "version": "V0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zh1402622214/jd_express_base.git",
+                "reference": "16117cb26bb78044c0af929a4d817a35a88b1042"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zh1402622214/jd_express_base/zipball/16117cb26bb78044c0af929a4d817a35a88b1042",
+                "reference": "16117cb26bb78044c0af929a4d817a35a88b1042",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lop\\": "Lop"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "sanxc",
+                    "email": "1402622214@qq.com"
+                }
+            ],
+            "time": "2021-04-27T16:13:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

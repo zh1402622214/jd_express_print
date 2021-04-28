@@ -1,0 +1,14 @@
+{
+  "name": "sanxc/jd_express_print",
+
+  "repositories": [
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "sanxc/jd_express_base": "^0.0.2"
+  },
+
+  "autoload": {
+    "psr-4": {"Lop\\": "src/Lop"}
+  }
+}
