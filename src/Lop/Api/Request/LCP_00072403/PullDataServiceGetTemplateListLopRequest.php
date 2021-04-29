@@ -36,7 +36,7 @@ public function getApiMethod(){
 
 public function getAppJsonParams() {
     $apiParams = array();
-        $apiParams[$i] = $this->getTemplateListReqDTO;
+        $apiParams[] = $this->getTemplateListReqDTO;
     return json_encode($apiParams);
 }
 public function getDomain(){
@@ -44,7 +44,7 @@ public function getDomain(){
 }
 public function getBodyObject(){
     $apiParams = array();
-        $apiParams[$i] = $this->getTemplateListReqDTO;
+        $apiParams[] = $this->getTemplateListReqDTO;
     return $apiParams;
 }
 public function buildDomainHttpParam(LopDomainClient $client)
